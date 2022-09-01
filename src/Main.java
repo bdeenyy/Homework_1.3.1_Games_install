@@ -23,7 +23,7 @@ public class Main {
         sb.append(createDirectory(dirGames + "/res", dirList3));
 
         String[] fileList1 = new String[]{"Main.java", "Utils.java"};
-        sb.append(createFile(dirGames + "/res/", fileList1));
+        sb.append(createFile(dirGames + "/src/main/", fileList1));
 
         String report = sb.toString();
         System.out.println(report);
